@@ -1,0 +1,1532 @@
+{
+    "message": "Order created successfully",
+    "success": true,
+    "data": {
+        "Response": {
+            "Passengers": {
+                "Passenger": [
+                    {
+                        "ObjectKey": "T1",
+                        "PTC": {
+                            "value": "ADT"
+                        },
+                        "Age": {
+                            "BirthDate": {
+                                "value": "2001-09-01T00:00:00.000"
+                            }
+                        },
+                        "Name": {
+                            "Surname": {
+                                "value": "PAUL"
+                            },
+                            "Given": [
+                                {
+                                    "value": "ALLEN"
+                                }
+                            ],
+                            "Title": "MR"
+                        },
+                        "Contacts": {
+                            "Contact": [
+                                {
+                                    "EmailContact": {
+                                        "Address": {
+                                            "value": "TEST@VERTEIL.COM"
+                                        }
+                                    },
+                                    "PhoneContact": {
+                                        "Number": [
+                                            {}
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        "Gender": {
+                            "value": "Male"
+                        }
+                    }
+                ]
+            },
+            "Order": [
+                {
+                    "OrderItems": {
+                        "OrderItem": [
+                            {
+                                "OrderItemID": {
+                                    "value": "P594BE079-C557-418E-AAEAt3fev372q8utr-1-1",
+                                    "Owner": "EK"
+                                },
+                                "FlightItem": {
+                                    "Price": {
+                                        "BaseAmount": {
+                                            "value": 528810,
+                                            "Code": "INR"
+                                        },
+                                        "Taxes": {
+                                            "Total": {
+                                                "value": 36976,
+                                                "Code": "INR"
+                                            },
+                                            "Breakdown": {
+                                                "Tax": [
+                                                    {
+                                                        "Amount": {
+                                                            "value": 114,
+                                                            "Code": "INR"
+                                                        },
+                                                        "TaxCode": "TP",
+                                                        "Description": "Psgr Security and Safety Fee"
+                                                    },
+                                                    {
+                                                        "Amount": {
+                                                            "value": 114,
+                                                            "Code": "INR"
+                                                        },
+                                                        "TaxCode": "ZR",
+                                                        "Description": "Intl Advanced Psgr Information Fee"
+                                                    },
+                                                    {
+                                                        "Amount": {
+                                                            "value": 794,
+                                                            "Code": "INR"
+                                                        },
+                                                        "TaxCode": "F6",
+                                                        "Description": "Passenger Facilities Charge"
+                                                    },
+                                                    {
+                                                        "Amount": {
+                                                            "value": 1701,
+                                                            "Code": "INR"
+                                                        },
+                                                        "TaxCode": "AE",
+                                                        "Description": "UAE Passenger Service Charge"
+                                                    },
+                                                    {
+                                                        "Amount": {
+                                                            "value": 525,
+                                                            "Code": "INR"
+                                                        },
+                                                        "TaxCode": "UB",
+                                                        "Description": "Passenger Service Charge"
+                                                    },
+                                                    {
+                                                        "Amount": {
+                                                            "value": 33728,
+                                                            "Code": "INR"
+                                                        },
+                                                        "TaxCode": "YQ",
+                                                        "Description": "Fuel Surcharge"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "Fees": {
+                                            "Total": {
+                                                "value": 0,
+                                                "Code": "INR"
+                                            },
+                                            "Breakdown": {
+                                                "Fee": [
+                                                    {
+                                                        "Amount": {
+                                                            "value": 0,
+                                                            "Code": "INR"
+                                                        },
+                                                        "FeePercent": 0,
+                                                        "FeeOwner": "Magellan Travel Services (P) Ltd.",
+                                                        "FeeCode": "rule01",
+                                                        "FeeName": "APIteamRule",
+                                                        "RefundInd": true
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    "OriginDestination": [
+                                        {
+                                            "Flight": [
+                                                {
+                                                    "SegmentKey": "S2",
+                                                    "Departure": {
+                                                        "AirportCode": {
+                                                            "value": "DXB"
+                                                        },
+                                                        "Date": "2023-10-28T00:00:00.000",
+                                                        "Time": "11:25",
+                                                        "AirportName": "Dubai International, AE",
+                                                        "Terminal": {
+                                                            "Name": "3"
+                                                        }
+                                                    },
+                                                    "Arrival": {
+                                                        "AirportCode": {
+                                                            "value": "LHR"
+                                                        },
+                                                        "Date": "2023-10-28T00:00:00.000",
+                                                        "Time": "16:10",
+                                                        "AirportName": "London Heathrow Apt, GB",
+                                                        "Terminal": {
+                                                            "Name": "3"
+                                                        }
+                                                    },
+                                                    "MarketingCarrier": {
+                                                        "AirlineID": {
+                                                            "value": "EK"
+                                                        },
+                                                        "Name": "Emirates",
+                                                        "FlightNumber": {
+                                                            "value": "31"
+                                                        }
+                                                    },
+                                                    "Equipment": {
+                                                        "Name": "Airbus A380-800 Passenger",
+                                                        "AircraftCode": {
+                                                            "value": "388"
+                                                        }
+                                                    },
+                                                    "ClassOfService": {
+                                                        "Code": {
+                                                            "value": "A"
+                                                        },
+                                                        "MarketingName": {
+                                                            "value": "First",
+                                                            "CabinDesignator": "F"
+                                                        }
+                                                    },
+                                                    "Details": {
+                                                        "FlightSegmentType": {
+                                                            "Code": "HK"
+                                                        },
+                                                        "FlightDistance": {
+                                                            "Value": 3405
+                                                        },
+                                                        "FlightDuration": {
+                                                            "Value": "PT7H45M"
+                                                        },
+                                                        "Stops": {
+                                                            "StopQuantity": 0
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "BaggageItem": {
+                                    "refs": [
+                                        "BASRVAD411EA",
+                                        "BASRVE26437B1-CO"
+                                    ]
+                                },
+                                "TimeLimits": {
+                                    "PaymentTimeLimit": {
+                                        "Timestamp": "2023-10-28T11:25:00.000"
+                                    }
+                                },
+                                "Associations": {
+                                    "Passengers": {
+                                        "PassengerReferences": [
+                                            "T1"
+                                        ]
+                                    },
+                                    "IncludedService": {
+                                        "ServiceReferences": [
+                                            "SRV1-T1-S2"
+                                        ]
+                                    },
+                                    "AssociatedService": {
+                                        "ServiceReferences": [
+                                            "S2"
+                                        ]
+                                    }
+                                },
+                                "Disclosures": {
+                                    "Description": [
+                                        {
+                                            "Text": {
+                                                "value": "BAGGAGESRV2-T1"
+                                            },
+                                            "Link": "ServiceID"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "OrderItemID": {
+                                    "value": "DOCS",
+                                    "Owner": "EK"
+                                },
+                                "OtherItem": {
+                                    "refs": [
+                                        "ServiceID1DOCS"
+                                    ]
+                                },
+                                "Associations": {
+                                    "Passengers": {
+                                        "PassengerReferences": [
+                                            "T1"
+                                        ]
+                                    }
+                                }
+                            },
+                            {
+                                "OrderItemID": {
+                                    "value": "TKNE",
+                                    "Owner": "EK"
+                                },
+                                "OtherItem": {
+                                    "refs": [
+                                        "ServiceID2TKNE"
+                                    ]
+                                },
+                                "Associations": {
+                                    "Passengers": {
+                                        "PassengerReferences": [
+                                            "T1"
+                                        ]
+                                    },
+                                    "OtherAssociation": [
+                                        {
+                                            "Type": "SegmentRef",
+                                            "ReferenceValue": "S2"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "CreationAPI": "NDC",
+                    "LastModificationAPI": "NDC",
+                    "OrderID": {
+                        "value": "LNICM2",
+                        "Owner": "EK",
+                        "Channel": "NDC"
+                    },
+                    "BookingReferences": {
+                        "BookingReference": [
+                            {
+                                "ID": "1261499",
+                                "OtherID": {
+                                    "value": "EK176H39EOTA7",
+                                    "Name": "orderId"
+                                }
+                            },
+                            {
+                                "ID": "1261499"
+                            }
+                        ]
+                    },
+                    "TotalOrderPrice": {
+                        "SimpleCurrencyPrice": {
+                            "value": 565786,
+                            "Code": "INR"
+                        }
+                    },
+                    "Status": {
+                        "StatusCode": {
+                            "Code": "702"
+                        }
+                    },
+                    "refs": [
+                        {
+                            "Ref": "VDC-PR-ocChIKq0OghDFVB5nSXh"
+                        }
+                    ]
+                }
+            ],
+            "Payments": {
+                "Payment": [
+                    {
+                        "Type": {
+                            "Code": "CC"
+                        },
+                        "Method": {
+                            "PaymentCardMethod": {
+                                "CardCode": "CA",
+                                "MaskedCardNumber": {
+                                    "value": "XXXXXXXXXXXX0004"
+                                },
+                                "EffectiveExpireDate": {
+                                    "Expiration": "1240"
+                                }
+                            }
+                        },
+                        "Amount": {
+                            "value": 565786,
+                            "Code": "INR"
+                        },
+                        "Associations": {
+                            "OrderItemID": [
+                                {
+                                    "value": "P594BE079-C557-418E-AAEAt3fev372q8utr-1-1",
+                                    "Owner": "EK"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "TicketDocInfos": {
+                "TicketDocInfo": [
+                    {
+                        "IssuingAirlineInfo": {
+                            "AirlineName": "Emirates"
+                        },
+                        "TicketDocument": [
+                            {
+                                "TicketDocNbr": "17657500633054",
+                                "Type": {
+                                    "Code": "702"
+                                },
+                                "NumberofBooklets": 1,
+                                "DateOfIssue": "2023-10-06T00:00:00.000",
+                                "TicketingLocation": "COK",
+                                "CouponInfo": [
+                                    {
+                                        "CouponNumber": 1,
+                                        "CouponReference": "S2",
+                                        "FareBasisCode": {
+                                            "Code": "ASSOSAE1"
+                                        },
+                                        "Status": {
+                                            "Code": "I"
+                                        },
+                                        "CurrentAirlineInfo": {
+                                            "Departure": {
+                                                "AirportCode": {
+                                                    "value": "DXB"
+                                                },
+                                                "Date": "2023-10-28T00:00:00.000",
+                                                "Time": "11:25"
+                                            },
+                                            "Arrival": {
+                                                "AirportCode": {
+                                                    "value": "LHR"
+                                                },
+                                                "Date": "2023-10-28T00:00:00.000",
+                                                "Time": "16:10"
+                                            },
+                                            "MarketingCarrier": {
+                                                "AirlineID": {
+                                                    "value": "EK"
+                                                },
+                                                "FlightNumber": {
+                                                    "value": "31"
+                                                },
+                                                "ResBookDesigCode": "A"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "ReportingType": "BSP"
+                            }
+                        ],
+                        "PassengerReference": [
+                            "T1"
+                        ],
+                        "Price": {
+                            "Total": {
+                                "value": 565786,
+                                "Code": "INR"
+                            }
+                        }
+                    }
+                ]
+            },
+            "DataLists": {
+                "AnonymousTravelerList": {
+                    "AnonymousTraveler": [
+                        {
+                            "PTC": {
+                                "value": "ADT"
+                            }
+                        }
+                    ]
+                },
+                "CarryOnAllowanceList": {
+                    "CarryOnAllowance": [
+                        {
+                            "ListKey": "BA3BD8933F-CO",
+                            "AllowanceDescription": {
+                                "ApplicableParty": "Traveler"
+                            },
+                            "PieceAllowance": [
+                                {
+                                    "ApplicableParty": "Traveler",
+                                    "TotalQuantity": 2,
+                                    "PieceMeasurements": [
+                                        {
+                                            "Quantity": 2
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "CheckedBagAllowanceList": {
+                    "CheckedBagAllowance": [
+                        {
+                            "ListKey": "BAEDBA6181",
+                            "AllowanceDescription": {
+                                "ApplicableParty": "Traveler"
+                            },
+                            "WeightAllowance": {
+                                "ApplicableParty": "Traveler",
+                                "MaximumWeight": [
+                                    {
+                                        "Value": 50,
+                                        "UOM": "Kilogram"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "DisclosureList": {
+                    "Disclosures": [
+                        {
+                            "Description": [
+                                {
+                                    "Text": {
+                                        "value": "Data Protection Notice: Your personal data will be processed in accordance with the applicable carriers privacy policy and, if your booking is made via a reservation system provider (\"GDS\" ), with its privacy policy. These are available at http://www.iatatravelcenter.com/privacy or from the carrier, GDS or TSP directly. You should read this documentation, which applies to your booking and specifies, for example, how your personal data is collected, stored, used, disclosed and transferred."
+                                    },
+                                    "Link": "http://www.iatatravelcenter.com/privacy"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "FareList": {
+                    "FareGroup": [
+                        {
+                            "Fare": {
+                                "FareCode": {
+                                    "Code": "70J",
+                                    "refs": [
+                                        "FRK0461624D"
+                                    ]
+                                },
+                                "FareDetail": {
+                                    "FareComponent": [
+                                        {
+                                            "SegmentReference": {
+                                                "value": [
+                                                    "S2"
+                                                ]
+                                            },
+                                            "PriceBreakdown": {
+                                                "Price": {
+                                                    "Taxes": {
+                                                        "Total": {
+                                                            "value": 36976
+                                                        },
+                                                        "Breakdown": {
+                                                            "Tax": [
+                                                                {
+                                                                    "Amount": {
+                                                                        "value": 114,
+                                                                        "Code": "INR"
+                                                                    },
+                                                                    "TaxType": "TP",
+                                                                    "Description": "Psgr Security and Safety Fee"
+                                                                },
+                                                                {
+                                                                    "Amount": {
+                                                                        "value": 114,
+                                                                        "Code": "INR"
+                                                                    },
+                                                                    "TaxType": "ZR",
+                                                                    "Description": "Intl Advanced Psgr Information Fee"
+                                                                },
+                                                                {
+                                                                    "Amount": {
+                                                                        "value": 794,
+                                                                        "Code": "INR"
+                                                                    },
+                                                                    "TaxType": "F6",
+                                                                    "Description": "Passenger Facilities Charge"
+                                                                },
+                                                                {
+                                                                    "Amount": {
+                                                                        "value": 1701,
+                                                                        "Code": "INR"
+                                                                    },
+                                                                    "TaxType": "AE",
+                                                                    "Description": "UAE Passenger Service Charge"
+                                                                },
+                                                                {
+                                                                    "Amount": {
+                                                                        "value": 525,
+                                                                        "Code": "INR"
+                                                                    },
+                                                                    "TaxType": "UB",
+                                                                    "Description": "Passenger Service Charge"
+                                                                },
+                                                                {
+                                                                    "Amount": {
+                                                                        "value": 33728,
+                                                                        "Code": "INR"
+                                                                    },
+                                                                    "TaxType": "YQ",
+                                                                    "Description": "Fuel Surcharge"
+                                                                }
+                                                            ]
+                                                        }
+                                                    },
+                                                    "BaseAmount": {
+                                                        "value": 528810,
+                                                        "Code": "INR"
+                                                    }
+                                                }
+                                            },
+                                            "FareBasis": {
+                                                "RBD": "A"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "FareBasisCode": {
+                                "Code": "ASSOSAE1"
+                            },
+                            "refs": [
+                                "T1"
+                            ]
+                        }
+                    ]
+                },
+                "FlightSegmentList": {
+                    "FlightSegment": [
+                        {
+                            "Departure": {
+                                "AirportCode": {
+                                    "value": "DXB"
+                                },
+                                "Date": "2023-10-28T00:00:00.000",
+                                "Time": "11:25",
+                                "Terminal": {
+                                    "Name": "3"
+                                }
+                            },
+                            "Arrival": {
+                                "AirportCode": {
+                                    "value": "LHR"
+                                },
+                                "Date": "2023-10-28T00:00:00.000",
+                                "Time": "16:10",
+                                "Terminal": {
+                                    "Name": "3"
+                                }
+                            },
+                            "MarketingCarrier": {
+                                "AirlineID": {
+                                    "value": "EK"
+                                },
+                                "Name": "Emirates",
+                                "FlightNumber": {
+                                    "value": "31"
+                                }
+                            },
+                            "Equipment": {
+                                "AircraftCode": {
+                                    "value": "388"
+                                }
+                            },
+                            "FlightDetail": {
+                                "FlightDuration": {
+                                    "Value": "PT7H45M"
+                                },
+                                "Stops": {
+                                    "StopQuantity": 0
+                                }
+                            }
+                        }
+                    ]
+                },
+                "OriginDestinationList": {
+                    "OriginDestination": [
+                        {
+                            "OriginDestinationKey": "O1",
+                            "DepartureCode": {
+                                "value": "DXB"
+                            },
+                            "ArrivalCode": {
+                                "value": "LHR"
+                            }
+                        }
+                    ]
+                },
+                "PenaltyList": {
+                    "Penalty": [
+                        {
+                            "Details": {
+                                "Detail": [
+                                    {
+                                        "Amounts": {
+                                            "Amount": [
+                                                {
+                                                    "CurrencyAmountValue": {
+                                                        "value": 565786,
+                                                        "Code": "INR"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "PriceClassList": {
+                    "PriceClass": [
+                        {
+                            "ObjectKey": "FirstFlex-1",
+                            "Name": "First Flex"
+                        }
+                    ]
+                },
+                "ServiceList": {
+                    "Service": [
+                        {
+                            "ObjectKey": "A-A-MILES",
+                            "Detail": {
+                                "ServiceCoupon": {
+                                    "CouponType": {
+                                        "value": "F"
+                                    }
+                                }
+                            },
+                            "Name": {
+                                "value": "MILES"
+                            },
+                            "Encoding": {
+                                "RFIC": {
+                                    "Code": "A"
+                                },
+                                "Code": {
+                                    "value": "1"
+                                },
+                                "SubCode": {
+                                    "value": "MILES"
+                                }
+                            },
+                            "Descriptions": {
+                                "Description": [
+                                    {
+                                        "Application": "Details",
+                                        "Text": {
+                                            "value": "MILES"
+                                        }
+                                    },
+                                    {
+                                        "Application": "Type",
+                                        "Text": {
+                                            "value": "Included"
+                                        }
+                                    }
+                                ]
+                            },
+                            "Settlement": {
+                                "Method": {
+                                    "Code": "F"
+                                }
+                            }
+                        },
+                        {
+                            "ObjectKey": "A-OC-WIF-ENT",
+                            "Detail": {
+                                "ServiceCoupon": {
+                                    "CouponType": {
+                                        "value": "D"
+                                    }
+                                }
+                            },
+                            "Name": {
+                                "value": "Complimentary Wi-Fi"
+                            },
+                            "Encoding": {
+                                "RFIC": {
+                                    "Code": "A"
+                                },
+                                "Code": {
+                                    "value": "1"
+                                },
+                                "SubCode": {
+                                    "value": "WIF"
+                                }
+                            },
+                            "Descriptions": {
+                                "Description": [
+                                    {
+                                        "Application": "Details",
+                                        "Text": {
+                                            "value": "Complimentary Wi-Fi"
+                                        }
+                                    },
+                                    {
+                                        "Application": "Type",
+                                        "Text": {
+                                            "value": "Included"
+                                        }
+                                    }
+                                ]
+                            },
+                            "Settlement": {
+                                "Method": {
+                                    "Code": "DS"
+                                }
+                            }
+                        },
+                        {
+                            "ObjectKey": "A-OC-ICE",
+                            "Detail": {
+                                "ServiceCoupon": {
+                                    "CouponType": {
+                                        "value": "D"
+                                    }
+                                }
+                            },
+                            "Name": {
+                                "value": "ICE entertainment"
+                            },
+                            "Encoding": {
+                                "RFIC": {
+                                    "Code": "A"
+                                },
+                                "Code": {
+                                    "value": "1"
+                                },
+                                "SubCode": {
+                                    "value": "ICE"
+                                }
+                            },
+                            "Descriptions": {
+                                "Description": [
+                                    {
+                                        "Application": "Details",
+                                        "Text": {
+                                            "value": "ICE entertainment"
+                                        }
+                                    },
+                                    {
+                                        "Application": "Type",
+                                        "Text": {
+                                            "value": "Included"
+                                        }
+                                    }
+                                ]
+                            },
+                            "Settlement": {
+                                "Method": {
+                                    "Code": "DS"
+                                }
+                            }
+                        },
+                        {
+                            "ObjectKey": "A-OC-PCI",
+                            "Detail": {
+                                "ServiceCoupon": {
+                                    "CouponType": {
+                                        "value": "D"
+                                    }
+                                }
+                            },
+                            "Name": {
+                                "value": "Priority Check in"
+                            },
+                            "Encoding": {
+                                "RFIC": {
+                                    "Code": "A"
+                                },
+                                "Code": {
+                                    "value": "1"
+                                },
+                                "SubCode": {
+                                    "value": "PCI"
+                                }
+                            },
+                            "Descriptions": {
+                                "Description": [
+                                    {
+                                        "Application": "Details",
+                                        "Text": {
+                                            "value": "Priority Check in"
+                                        }
+                                    },
+                                    {
+                                        "Application": "Type",
+                                        "Text": {
+                                            "value": "Included"
+                                        }
+                                    }
+                                ]
+                            },
+                            "Settlement": {
+                                "Method": {
+                                    "Code": "DS"
+                                }
+                            }
+                        },
+                        {
+                            "ObjectKey": "A-OC-FTS",
+                            "Detail": {
+                                "ServiceCoupon": {
+                                    "CouponType": {
+                                        "value": "D"
+                                    }
+                                }
+                            },
+                            "Name": {
+                                "value": "Fast Track Security"
+                            },
+                            "Encoding": {
+                                "RFIC": {
+                                    "Code": "A"
+                                },
+                                "Code": {
+                                    "value": "1"
+                                },
+                                "SubCode": {
+                                    "value": "FTS"
+                                }
+                            },
+                            "Descriptions": {
+                                "Description": [
+                                    {
+                                        "Application": "Details",
+                                        "Text": {
+                                            "value": "Fast Track Security"
+                                        }
+                                    },
+                                    {
+                                        "Application": "Type",
+                                        "Text": {
+                                            "value": "Included"
+                                        }
+                                    }
+                                ]
+                            },
+                            "Settlement": {
+                                "Method": {
+                                    "Code": "DS"
+                                }
+                            }
+                        },
+                        {
+                            "ObjectKey": "A-OC-PBD",
+                            "Detail": {
+                                "ServiceCoupon": {
+                                    "CouponType": {
+                                        "value": "D"
+                                    }
+                                }
+                            },
+                            "Name": {
+                                "value": "Priority Boarding"
+                            },
+                            "Encoding": {
+                                "RFIC": {
+                                    "Code": "A"
+                                },
+                                "Code": {
+                                    "value": "1"
+                                },
+                                "SubCode": {
+                                    "value": "PBD"
+                                }
+                            },
+                            "Descriptions": {
+                                "Description": [
+                                    {
+                                        "Application": "Details",
+                                        "Text": {
+                                            "value": "Priority Boarding"
+                                        }
+                                    },
+                                    {
+                                        "Application": "Type",
+                                        "Text": {
+                                            "value": "Included"
+                                        }
+                                    }
+                                ]
+                            },
+                            "Settlement": {
+                                "Method": {
+                                    "Code": "DS"
+                                }
+                            }
+                        },
+                        {
+                            "ObjectKey": "A-OC-PBG",
+                            "Detail": {
+                                "ServiceCoupon": {
+                                    "CouponType": {
+                                        "value": "D"
+                                    }
+                                }
+                            },
+                            "Name": {
+                                "value": "BAG:Priority Baggage"
+                            },
+                            "Encoding": {
+                                "RFIC": {
+                                    "Code": "A"
+                                },
+                                "Code": {
+                                    "value": "1"
+                                },
+                                "SubCode": {
+                                    "value": "PBG"
+                                }
+                            },
+                            "Descriptions": {
+                                "Description": [
+                                    {
+                                        "Application": "Details",
+                                        "Text": {
+                                            "value": "Priority Baggage"
+                                        }
+                                    },
+                                    {
+                                        "Application": "Type",
+                                        "Text": {
+                                            "value": "Included"
+                                        }
+                                    }
+                                ]
+                            },
+                            "Settlement": {
+                                "Method": {
+                                    "Code": "DS"
+                                }
+                            }
+                        },
+                        {
+                            "ObjectKey": "A-OC-LOU",
+                            "Detail": {
+                                "ServiceCoupon": {
+                                    "CouponType": {
+                                        "value": "D"
+                                    }
+                                }
+                            },
+                            "Name": {
+                                "value": "LOUNGE:Lounge access"
+                            },
+                            "Encoding": {
+                                "RFIC": {
+                                    "Code": "A"
+                                },
+                                "Code": {
+                                    "value": "1"
+                                },
+                                "SubCode": {
+                                    "value": "LOU"
+                                }
+                            },
+                            "Descriptions": {
+                                "Description": [
+                                    {
+                                        "Application": "Details",
+                                        "Text": {
+                                            "value": "Lounge access"
+                                        }
+                                    },
+                                    {
+                                        "Application": "Type",
+                                        "Text": {
+                                            "value": "Included"
+                                        }
+                                    }
+                                ]
+                            },
+                            "Settlement": {
+                                "Method": {
+                                    "Code": "DS"
+                                }
+                            }
+                        },
+                        {
+                            "ObjectKey": "A-OC-CHD",
+                            "Detail": {
+                                "ServiceCoupon": {
+                                    "CouponType": {
+                                        "value": "D"
+                                    }
+                                }
+                            },
+                            "Name": {
+                                "value": "CHAUFFEUR:Chauffeur Drive"
+                            },
+                            "Encoding": {
+                                "RFIC": {
+                                    "Code": "A"
+                                },
+                                "Code": {
+                                    "value": "1"
+                                },
+                                "SubCode": {
+                                    "value": "CHD"
+                                }
+                            },
+                            "Descriptions": {
+                                "Description": [
+                                    {
+                                        "Application": "Details",
+                                        "Text": {
+                                            "value": "Chauffeur Drive"
+                                        }
+                                    },
+                                    {
+                                        "Application": "Type",
+                                        "Text": {
+                                            "value": "Included"
+                                        }
+                                    }
+                                ]
+                            },
+                            "Settlement": {
+                                "Method": {
+                                    "Code": "DS"
+                                }
+                            }
+                        },
+                        {
+                            "ObjectKey": "A-OC-2X5",
+                            "Detail": {
+                                "ServiceCoupon": {
+                                    "CouponType": {
+                                        "value": "D"
+                                    }
+                                }
+                            },
+                            "Name": {
+                                "value": "250% miles earned"
+                            },
+                            "Encoding": {
+                                "RFIC": {
+                                    "Code": "A"
+                                },
+                                "Code": {
+                                    "value": "1"
+                                },
+                                "SubCode": {
+                                    "value": "2X5"
+                                }
+                            },
+                            "Descriptions": {
+                                "Description": [
+                                    {
+                                        "Application": "Details",
+                                        "Text": {
+                                            "value": "250% miles earned"
+                                        }
+                                    },
+                                    {
+                                        "Application": "Type",
+                                        "Text": {
+                                            "value": "Included"
+                                        }
+                                    }
+                                ]
+                            },
+                            "Settlement": {
+                                "Method": {
+                                    "Code": "DS"
+                                }
+                            }
+                        },
+                        {
+                            "ObjectKey": "A-OC-PVS",
+                            "Detail": {
+                                "ServiceCoupon": {
+                                    "CouponType": {
+                                        "value": "D"
+                                    }
+                                }
+                            },
+                            "Name": {
+                                "value": "Private suite"
+                            },
+                            "Encoding": {
+                                "RFIC": {
+                                    "Code": "A"
+                                },
+                                "Code": {
+                                    "value": "1"
+                                },
+                                "SubCode": {
+                                    "value": "PVS"
+                                }
+                            },
+                            "Descriptions": {
+                                "Description": [
+                                    {
+                                        "Application": "Details",
+                                        "Text": {
+                                            "value": "Private suite"
+                                        }
+                                    },
+                                    {
+                                        "Application": "Type",
+                                        "Text": {
+                                            "value": "Included"
+                                        }
+                                    }
+                                ]
+                            },
+                            "Settlement": {
+                                "Method": {
+                                    "Code": "DS"
+                                }
+                            }
+                        },
+                        {
+                            "ObjectKey": "A-OC-BVL",
+                            "Detail": {
+                                "ServiceCoupon": {
+                                    "CouponType": {
+                                        "value": "D"
+                                    }
+                                }
+                            },
+                            "Name": {
+                                "value": "Bvlgari amenity kit"
+                            },
+                            "Encoding": {
+                                "RFIC": {
+                                    "Code": "A"
+                                },
+                                "Code": {
+                                    "value": "1"
+                                },
+                                "SubCode": {
+                                    "value": "BVL"
+                                }
+                            },
+                            "Descriptions": {
+                                "Description": [
+                                    {
+                                        "Application": "Details",
+                                        "Text": {
+                                            "value": "Bvlgari amenity kit"
+                                        }
+                                    },
+                                    {
+                                        "Application": "Type",
+                                        "Text": {
+                                            "value": "Included"
+                                        }
+                                    }
+                                ]
+                            },
+                            "Settlement": {
+                                "Method": {
+                                    "Code": "DS"
+                                }
+                            }
+                        },
+                        {
+                            "ObjectKey": "A-OC-FCD",
+                            "Detail": {
+                                "ServiceCoupon": {
+                                    "CouponType": {
+                                        "value": "D"
+                                    }
+                                }
+                            },
+                            "Name": {
+                                "value": "Exclusive First Class dining"
+                            },
+                            "Encoding": {
+                                "RFIC": {
+                                    "Code": "A"
+                                },
+                                "Code": {
+                                    "value": "1"
+                                },
+                                "SubCode": {
+                                    "value": "FCD"
+                                }
+                            },
+                            "Descriptions": {
+                                "Description": [
+                                    {
+                                        "Application": "Details",
+                                        "Text": {
+                                            "value": "Exclusive First Class dining"
+                                        }
+                                    },
+                                    {
+                                        "Application": "Type",
+                                        "Text": {
+                                            "value": "Included"
+                                        }
+                                    }
+                                ]
+                            },
+                            "Settlement": {
+                                "Method": {
+                                    "Code": "DS"
+                                }
+                            }
+                        },
+                        {
+                            "ObjectKey": "BASRVE26437B1-CO",
+                            "Name": {
+                                "value": "BAG:Carry On Bag Allowance"
+                            },
+                            "Descriptions": {
+                                "Description": [
+                                    {
+                                        "Text": {
+                                            "value": "Carry On Bag Allowance"
+                                        }
+                                    }
+                                ]
+                            },
+                            "Associations": [
+                                {
+                                    "Traveler": {
+                                        "TravelerReferences": [
+                                            "T1"
+                                        ]
+                                    },
+                                    "Flight": {
+                                        "originDestinationReferencesOrSegmentReferences": [
+                                            "S2"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "refs": [
+                                "BA3BD8933F-CO"
+                            ]
+                        },
+                        {
+                            "ObjectKey": "BASRVAD411EA",
+                            "Name": {
+                                "value": "BAG:Checked Bag Allowance"
+                            },
+                            "Descriptions": {
+                                "Description": [
+                                    {
+                                        "Text": {
+                                            "value": "Checked Bag Allowance"
+                                        }
+                                    }
+                                ]
+                            },
+                            "Associations": [
+                                {
+                                    "Traveler": {
+                                        "TravelerReferences": [
+                                            "T1"
+                                        ]
+                                    },
+                                    "Flight": {
+                                        "originDestinationReferencesOrSegmentReferences": [
+                                            "S2"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "refs": [
+                                "BAEDBA6181"
+                            ]
+                        },
+                        {
+                            "ObjectKey": "SRV1-T1-S2",
+                            "Associations": [
+                                {
+                                    "Traveler": {
+                                        "TravelerReferences": [
+                                            "T1"
+                                        ]
+                                    },
+                                    "Flight": {
+                                        "originDestinationReferencesOrSegmentReferences": [
+                                            "S2"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ObjectKey": "ServiceID1DOCS",
+                            "ServiceID": {
+                                "value": "DOCS"
+                            },
+                            "Name": {
+                                "value": "DOCS"
+                            },
+                            "Descriptions": {
+                                "Description": [
+                                    {
+                                        "Application": "status",
+                                        "Text": {
+                                            "value": "HK"
+                                        }
+                                    },
+                                    {
+                                        "Application": "SsrText",
+                                        "Text": {
+                                            "value": "////01SEP76/M//PAUL/ALLEN"
+                                        }
+                                    }
+                                ]
+                            },
+                            "Associations": [
+                                {
+                                    "Traveler": {
+                                        "TravelerReferences": [
+                                            "T1"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "ObjectKey": "ServiceID2TKNE",
+                            "ServiceID": {
+                                "value": "TKNE"
+                            },
+                            "Name": {
+                                "value": "TKNE"
+                            },
+                            "Descriptions": {
+                                "Description": [
+                                    {
+                                        "Application": "status",
+                                        "Text": {
+                                            "value": "HK"
+                                        }
+                                    },
+                                    {
+                                        "Application": "SsrText",
+                                        "Text": {
+                                            "value": "1765750063305C1"
+                                        }
+                                    }
+                                ]
+                            },
+                            "Associations": [
+                                {
+                                    "Traveler": {
+                                        "TravelerReferences": [
+                                            "T1"
+                                        ]
+                                    },
+                                    "Flight": {
+                                        "originDestinationReferencesOrSegmentReferences": [
+                                            "S2"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "Metadata": {
+                "Other": {
+                    "OtherMetadata": [
+                        {
+                            "CurrencyMetadatas": {
+                                "CurrencyMetadata": [
+                                    {
+                                        "MetadataKey": "INR",
+                                        "Decimals": 0
+                                    },
+                                    {
+                                        "MetadataKey": "AED",
+                                        "Decimals": 0
+                                    },
+                                    {
+                                        "MetadataKey": "NUC",
+                                        "Decimals": 2
+                                    }
+                                ]
+                            },
+                            "PriceMetadatas": {
+                                "PriceMetadata": [
+                                    {
+                                        "MetadataKey": "VDC-PR-ocChIKq0OghDFVB5nSXh",
+                                        "AugmentationPoint": {
+                                            "AugPoint": [
+                                                {
+                                                    "any": {
+                                                        "@type": "com.verteil.pricemanager.data.PriceRuleAugPoint",
+                                                        "value": "+zcZAo2qOZP6h/R7pKV3doAzSX2fNvh+dFNBJOTalNfjUvNKj1xBxLRZwbDSk3Hh0GuHm3dU7RlFZUl/bVfONhxnmvum9Dj4eAp1HescaFlvJOJ2MNBWEhzcmXp2FhGL566dx23UwV7jk32CmBpuwXotc/A4RUDCPDO38oHgxASGwMy1KVYXpV8vbZt5Ixhex2CfPaEXAWFBAXx1wYPEapE8Jxga/d4/s4NrWa0IyuMXcD00x4gN1/cn3MU7VyKq5PO07crQnQbK8uaH9MAl7l5J22XEJzSbAqQLNJUQzwX9sRlPM9n7YfVl7EzcScyqUDbiI+cH/cX7AeUN05TW36BKZfEy54aVP9KCZDiWKHIqIXZj6kb16Kwy6HXJmo3qRSTVzWfjkGaL/k1QTIBn"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "PriceMetadatas": {
+                                "PriceMetadata": [
+                                    {
+                                        "MetadataKey": "FRK0461624D",
+                                        "AugmentationPoint": {
+                                            "AugPoint": [
+                                                {
+                                                    "any": {
+                                                        "value": "NO8OPNQ~MVB8ODO~MqA9CJ~MqM9BW@~MpC8KMM~MEA9?RQNQ@C0~MAD9?RQNQ@C0~MSN9NT@K~MQM9/~MNW8@BS~M@K9+0~MBS9GMP~MDJ8/~DCVA~A~A~DKMM~A~A~DDI~A~D@QRMR?D/~D.10~D.//~D./.11~D51./~D2~D~A~A~DD~D*scERGgqdaJse*flxKey"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "RuleMetadatas": {
+                                "RuleMetadata": [
+                                    {
+                                        "MetadataKey": "RM25DFE281",
+                                        "RuleID": {
+                                            "value": "Change"
+                                        },
+                                        "Values": {
+                                            "Value": [
+                                                {
+                                                    "Instruction": {
+                                                        "value": "Allowed"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "MetadataKey": "RM7808C561",
+                                        "RuleID": {
+                                            "value": "Cancel"
+                                        },
+                                        "Values": {
+                                            "Value": [
+                                                {
+                                                    "Instruction": {
+                                                        "value": "Allowed"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
